@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/jiangsc93/jsc-cli-demo.git"
 },
-  "private": true,
+  "private": false,
   "keywords": [],
   "author": "",
   "license": "ISC",
