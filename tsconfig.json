@@ -1,0 +1,27 @@
+{
+    "include": [ "./src"],
+    "exclude": [
+        "node_modules",
+        // "./src/**/*.spec.ts",
+    ],
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "outDir": "./bin",
+        "target": "es5",
+        "paths": {
+            "@": ["./src"],
+            "@utils": ["./src/utils"],
+            "@config": ["./src/config"],
+            "@commands": ["./src/commands"],
+        },
+        // "allowSyntheticDefaultImports": true,
+        // "forceConsistentCasingInFileNames": true,
+        // "module": "commonjs",
+        // "removeComments": true,
+        // "allowJs": true,
+        // "preserveConstEnums": true,
+        // "sourceMap": true,
+        // "moduleResolution": "node",
+    }
+}
